@@ -2,9 +2,10 @@
 # HTML5 Boot Camp
 
 ## The future of Web Applications is here!
-### Are you ready for it?
 
-#### Index
+Are you ready for it?
+
+### Index
 
 1. [Objective](#objective)
 
@@ -18,30 +19,29 @@
 
 6. [Handling advanced Developers](#handling-advanced-developers)
 
-7. [Materials](#materials)
+7. [Tools](#tools)
 
 8. [General Guidelines](#general-guidelines)
 
-9. [Proposed Test Applications](#proposed-test-applications)
+9. [Learning Days](#learning-days)
 
-10. [Environment Setup & Tools](#tools)
+    * [Topic 0: HTML & CSS Basics](#topic0)
 
-11. [Learning Days](#learning-days)
+    * [Topic 1: JavaScript, and DOM APIs](#topic1)
 
-    * [Topic 0: HTML & CSS Basics](#topic-0-html--css-basics)
+    * [Topic 2: Design Patterns and OOP in JavaScript](#topic2)
 
-    * [Topic 1: JavaScript, and DOM APIs](#topic-1-javascript-intro-and-jquery)
+    * [Topic 3: HTML5 APIs](#topic3)
 
-    * [Topic 2: OOP and Inheritance in JavaScript](#topic-2-design-patterns-and-oop-in-javascript-3-days)
+    * [Topic 4: UI - ReactJS](#topic4)
 
-    * [Topic 3: MVC - AngularJS](#topic-3-mvc---angularjs)
+    * [Topic 5: Unit Tests](#topic5)
+    
+    * [Topic 6: MVC - AngularJS](#topic6) *(Optional)*
 
-    * [Topic 4: HTML5 APIs](#topic-4-html5-apis)
+10. [Your First Project Starts Now](#your-first-project-starts-now)
 
-    * [Topic 5 (Optional): UI - ReactJS](#topic-5-optional-ui---reactjs)
-
-
-12. [Your First Project Starts Now!](#bookmark=id.605681dc8138)
+11. [Moving Forward](#forward)
 
 ### Objective
 
@@ -65,11 +65,11 @@ Three weeks for guided learning and two weeks for app development.
 
 ### Technical Assistance
 
-You can contact other bootcamp participants or any available tutor if you need technical assistance. We will create one chat for boot camp members only, and another one for boot camp members and tutors when boot camp starts.
+You can contact other bootcamp participants or any available tutor if you need technical assistance. We will create one chat for bootcamp members only, and another one for bootcamp members and tutors when bootcamp starts.
 
 ### Performance Measurement
 
-1. Code review after each practice and sprint
+1. Code reviews after each practice and sprint
 
 2. Checkpoint completion after Learning stage with your assigned tutor
 
@@ -84,13 +84,21 @@ Developers that move faster than average can go ahead and complete as much exerc
 
 ### Tools
 
-1. At least, three different browsers installed on the developer machine. Example, Chrome, Firefox, and the Android browser using Android's emulator.
+1.  At least, three different browsers installed on the developer machine. As Example:
 
-2. The IDE to use is [SublimeText](http://www.sublimetext.com/).
+    *   Chrome
+    *   Firefox
+    *   IE11 (Keep in mind [cross browser compatibility](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction))
 
-3. Skype Account + headset (audio calls)
+2.  Any IDE available for Web Development.
 
-4. Create your own[ GitHub](https://github.com/) account. Follow this[ guideline](https://help.github.com/articles/set-up-git) to setup your account.
+    *   [Atom](https://atom.io/)
+    *   [Visual Studio Code](https://code.visualstudio.com/)
+    *   [SublimeText](http://www.sublimetext.com/)
+
+3.  Google Hangouts for calls. Slack channel for questions.
+
+4. Create your own [GitHub](https://github.com/) account. Follow this [guideline](https://help.github.com/articles/set-up-git) to setup your account.
 
 5. Install your own NodeJS server.
   * Download [NodeJS](http://nodejs.org/)
@@ -98,11 +106,9 @@ Developers that move faster than average can go ahead and complete as much exerc
   * To start the server, from a command line interface, run `http-server` in the directory where you will clone the startup repo
   * Open your web browser and point to localhost:PORT (the `http-server` should have outputted the number of PORT you should use)
 
-6. Fork this repo [https://github.com/globant-ui/startup](https://github.com/globant-ui/startup) to use as a base to host the project code.
+6. Fork [Startup repository](https://github.com/globant-ui/startup) to use as a base to host the project code.
 
 → [index](#index)
-
-
 
 ### General Guidelines
 
@@ -112,35 +118,15 @@ The boot camp is organized in the following way:
 
 2. The next two weeks will be used to develop an application following a life process.
 
-3. The project manager will coordinate learning days encouraging team communication in daily meetings.
+3. All the exercises must work within a mobile environment.
 
-4. The project manager will gather information regarding individual progress so we can look for alternative assistance where needed.
+4. Team play is encouraged but the work might be evaluated per person (depending on number of bootcamp students).
 
-5. The project manager will lead the boot camp sprints as if it were a real project using SCRUM agile methodology.
+5. All code and documentation must be in English.
 
-6. Two boot camp chats will be created for feedback and technical assistance:
-
-    1. Bootcamp HTML - ALL
-Every person participating in the bootcamp is present here (students, tutors and PMs). Here is the place to ask for technical assistance!
-
-    2. Bootcamp HTML - Assistants
-Here you will reach just your boot camp fellows for asking question sharing knowledge.
-
-7. Team play is encouraged but the work will be evaluated per person.
-
-8. Sprint duration will be 1 week.
-
-9. The instructions will be vague as they generally are in real life projects. You must look for support and guidance from your PM, teammates and tutors.
-
-10. All code and documentation must be in English.
-
-11. Code must adhere to Globant’s UI [HTML](https://github.com/globant-ui/html-style-guide), [CSS](https://github.com/globant-ui/css-style-guide) and [JavaScript](https://github.com/globant-ui/JavaScript-style-guide) coding guidelines.
+6. Code must adhere to Globant’s UI [HTML](https://github.com/globant-ui/html-style-guide), [CSS](https://github.com/globant-ui/css-style-guide) and [JavaScript](https://github.com/globant-ui/JavaScript-style-guide) coding guidelines.
 
 → [index](#index)
-
-### Proposed Test Applications
-
-The test application will consist in a Last.fm client.
 
 ### Learning Days ###
 
@@ -148,15 +134,12 @@ Each day you will grab the fundamentals of the key building blocks for the next 
 
 On each learning day you will have to:
 
-1. *Read:*
-We will provide you with documentation related with current sprint content so you can have a background reference, guide and examples to complete the following practice.
+1. **Read:** We will provide you with documentation related with current sprint content so you can have a background reference, guide and examples to complete the following practice.
 
-2. *Practice*
-You will implement the previously gathered knowledge in simple coding activities.
-Most important task numbers are listed in the "*Key Points*" section for each day and they should get most of your attention; if you feel you don’t have enough time to complete all tasks, start with these ones when possible.
+2. **Practice:** You will implement the previously gathered knowledge in simple coding activities.
+Most important task numbers are listed in the "*Key Points*" section for each day and they should get most of your attention. If you feel you don’t have enough time to complete all tasks, start with these ones when possible.
 
-3. *Commit:*
-You will commit all your code on a daily basis, when you finish your practice.
+3. **Commit:** You will commit all your code on a daily basis, when you finish your practice.
 
 ### Introduction
 
@@ -172,11 +155,20 @@ JavaScript is a programming language that runs in all Web Browsers. Using JavaSc
 
 Now that you know which are the three pilars of a web application's UI, it's time to dive into them.
 
-#### [Topic 0: HTML & CSS Basics](https://github.com/globant-ui/css-lab)
+<h4 id="topic0">Topic 0 - HTML & CSS Basics</h4>
 
-#### Topic 1: JavaScript, and DOM APIs
+This topic is hosted in a different repository, you can find it in [HTML & CSS Basics](https://github.com/globant-ui-tandil/css-lab)
 
-##### Reading:
+**Some resources**
+
+*   [htmlreference.io](https://htmlreference.io/)
+*   [cssreference.io](https://cssreference.io/)
+
+→ [index](#index)
+
+<h4 id="topic1">Topic 1 - JavaScript and DOM APIs</h4>
+
+**Reading:**
 
 1. Beginner: Eloquent JavaScript 2nd Edition [basic tutorial](http://eloquentjavascript.net/) (in case you need it!)
 
@@ -184,68 +176,96 @@ Now that you know which are the three pilars of a web application's UI, it's tim
 
 3. Recommended: [devdocs.io](http://devdocs.io/) to check Web platform documentation around JavaScript, frameworks, Browser APIs, etc
 
-##### Extra documentation
+**Extra documentation**
 
-* Web Platform Documentation Project: [http://www.webplatform.org/](http://www.webplatform.org/)
+*   MDN JavaScript Reference: [https://developer.mozilla.org/en/JavaScript/Reference](https://developer.mozilla.org/en/JavaScript/Reference)
 
-* MDN JavaScript Reference: [https://developer.mozilla.org/en/JavaScript/Reference](https://developer.mozilla.org/en/JavaScript/Reference)
+*   Web Platform Documentation Project: [https://webplatform.github.io/](https://webplatform.github.io/)
 
-* Understanding ECMAScript 6: [https://leanpub.com/understandinges6/read](https://leanpub.com/understandinges6/read)
+*   Understanding ECMAScript 6: [https://leanpub.com/understandinges6/read](https://leanpub.com/understandinges6/read)
 
-* [ECMAScript® 2015 Language Specification](http://www.ecma-international.org/ecma-262/6.0/) *For really advanced developers*
+*   [ECMAScript® 2015 Language Specification](https://www.ecma-international.org/ecma-262/6.0/) *For really advanced developers*
 
-* JSONP and CORS: [http://json-p.org/](http://json-p.org/) - [http://www.html5rocks.com/en/tutorials/cors/](http://www.html5rocks.com/en/tutorials/cors/)
+*   [Exploring ES2018 and ES2019](http://exploringjs.com/es2018-es2019/toc.html), if you want to know more about future new features in Javascript.
 
-* Using Chrome console to debug JavaScript [https://developer.chrome.com/devtools/docs/console](https://developer.chrome.com/devtools/docs/console)
+*   [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript), to keep in mind good practices.
 
-##### Practice:
+*   [You Don't Know JS Books](https://github.com/getify/You-Dont-Know-JS), if you want to go deeper into Javascript logic.
 
-**Use latest IE, Chrome, or Firefox browser to develop. Try to use as much ECMAScript 6 syntax as you can. Favor ```let``` and ```const``` over ```var```**
+*   CORS: [https://www.html5rocks.com/en/tutorials/cors/](https://www.html5rocks.com/en/tutorials/cors/)
 
-1. Open your IDE, create a new file text, save it as index.html. Add the correct doctype, and a few tags with random content.
+*   Using Chrome console to debug JavaScript [https://developer.chrome.com/devtools/docs/console](https://developer.chrome.com/devtools/docs/console)
 
-2. Add a stylesheet to the index.html. Use the stylesheet to center the text of all ```section``` elements of the page.
+**Practice**
 
-3. Add a hidden ```section``` with the following text inside: "Hello world".
+*Latest IE, Chrome and Firefox browser should be used. All exercises must be done with ECMAScript 6 syntax.*
 
-4. When the page has finished loading the section must fade in. *Hint: Use JavaScript, Browser Events, and CSS3*
+1.  Creating our index page with some sections.
 
-5. Add a button below the ```section``` to your index.html.
+    *   Create a file called `index.html` with the correct doctype and some random content.
 
-6. Attach a click event to the created button which calls a function that gets a response from [http://api.icndb.com/jokes/random](http://api.icndb.com/jokes/random). Write the response to the ```section``` element. *Hint: use the XMLHttpRequest to fetch data from the service*
+    *   Add a stylesheet to the HTML file and use it to center the texts of all `section` elements.
 
-7. From the previous exercise create a reusable function to perform AJAX calls. The function must accept a ```config``` object and return an ES6 Promise.
+    *   Add a hidden `section` with `Hello World` inside of it.
 
-8. Show ```section``` content in red when a server error occurs.
+    *   When the page finished loading the section must fade in.
 
-9. Use the function created in exercise 6 to get the response from [https://api.github.com/search/repositories](https://api.github.com/search/repositories) with parameters data "q = 'JavaScript'". First log the service response in Chrome's console to analyze data (see provided link on Chrome console), then display repository's ```full_name``` as a list in the right side of the screen. The ```ul``` element must be used to list the repositories data.
+2.  Adding some events
 
-10. Add an input type="text", and reuse the code for exercise 9, so the user can perform search for any repository.
+    *   Add a button below the `section` to your index page.
 
-11. Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+    *   Create a function that showcases an alert message when called.
 
-12. Write a function that takes as input a matrix of data and outputs a DOM structure representing a table. Attach it to the body of a given page. *Hint: use ```document.createElement```, ```document.createTextNode```, and ```Node.appendChild``` methods*
+    *   Attach a click event to the created button which calls the function previously created.
 
-##### Key Points:
 
-4, 7, 10, 12
+3.  Data fetching
 
-##### Mobile Test:
+    *   Create a function to get the response from [http://api.icndb.com/jokes/random](http://api.icndb.com/jokes/random).
 
-Test your code in a mobile device or in Android emulator.
+    *   Replace the button's click event with this new function.
 
-Hint: A good option to test your code in a mobile device is to use Genimotion Android Emulator [http://www.genymotion.com/], which is one of the most fast and easy mobile emulators to install.
+    *   Write the response inside the `section` element.
 
-##### Commit:
+    *   Create a reusable function to perform AJAX calls. This function must accept a `config` object and return an ES6 [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises).
 
-Commit your practice code.
+    *   If a server error occurs `section` content must turn red.
+
+    *   **Hint:** Use the XMLHttpRequest to fetch data from the service.
+
+4.  Data fetching with parameters
+
+    *   Create a function to get the response from [https://api.github.com/search/repositories](https://api.github.com/search/repositories) with parameters `q = 'JavaScript'`.
+
+    *   Showcase a list of repositories, provided by the service, in the right side of the screen.
+
+    *   **Hint:** `ul` must be used to list the repositories.
+
+    *   Add an input with `type="text"` to perform a search for any value.
+
+5.  W3C
+
+    *   Validate your page using W3C validator: [https://addons.mozilla.org/en-US/firefox/addon/web-developer/](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+
+6.  DOM manipulation
+
+    *   Write a function that takes as input a matrix of data and outputs a DOM structure representing a table. Attach it to the body of a given page.
+
+    *   **Hint:** use `document.createElement`, `document.createTextNode`, and `Node.appendChild` methods.
+
+**Key Points:**
+
+1, 3, 4, 6
 
 → [index](#index)
 
-#### Topic 2: Design Patterns and OOP in JavaScript
-In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. If you come from Java, or .NET you will find yourself a little bit lost at the beggining. ECMAScript6 provides a layer of syntactic sugar over the previous version(5.1) that is expected to simplify the language.
+<h4 id="topic2">Topic 2 - Design Patterns and OOP in JavaScript</h4>
 
-##### Reading:
+In this Topic we will focus on learning how JavaScript approaches Object-Oriented programming. 
+
+If you come from Java, or .NET you will find yourself a little bit lost at the beggining. ECMAScript6 provides a layer of syntactic sugar over the previous version(5.1) that is expected to simplify the language.
+
+**Reading**
 
 1. Understand how *prototypes* works in ECMAScript 5.1 [http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/](http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/)
 
@@ -259,151 +279,208 @@ In this Topic we will focus on learning how JavaScript approaches Object-Oriente
 
 6. An overview on all the features ECMAScript provides [https://github.com/lukehoban/es6features](https://github.com/lukehoban/es6features) 
 
-##### Practice:
+**Practice**
 
-1. Create a Movie object:
+1.  Creating classes
 
-    <table>
-        <tr>
-            <td>Movie</td>
-        </tr>
-        <tr>
-            <td>- title <br />- year <br />- duration</td>
-        </tr>
-        <tr>
-            <td>+ play() <br />+ pause()<br />+ resume()<br /></td>
-        </tr>
-    </table>
+    *   Create a Movie Class with the following structure
 
-2. Instantiate some of your favorite movies and play with them in the console.
+        <table>
+            <tr>
+                <td>Movie</td>
+            </tr>
+            <tr>
+                <td>
+                    - title <br />
+                    - year <br />
+                    - duration
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    + constructor(name, year, duration) <br />
+                    + play() <br />
+                    + pause()<br />
+                    + resume()
+                </td>
+            </tr>
+        </table>
 
-3. Create an EventEmitter class with the following methods: ```on```, ```emit```, ```off```. The ```on``` method will allow to pass a callback or **listener** that will be executed each time a given event is triggered. The ```emit``` method will allow a class to trigger events to be consumed by other functions/objects. The ```off``` method will delete the listener.
+    *   Instantiate some of your favorite movies and play with them in the console.
 
-4. Make Movie a subclass of EventEmitter. Publish "*play*" event on Movie.play(), "*pause*" event on Movie.pause(), and "*resume*" event on Movie.resume()
+    *   Create an Actor class with the following structure
 
-5. Create a Logger class with a ```log(info)``` method that will output ```info``` to the console. Make ```log``` listen to a Movie's 'play' event. You should be able to do something like this in the console:
+        <table>
+            <tr>
+                <td>Actor</td>
+            </tr>
+            <tr>
+                <td>
+                    - name <br />
+                    - age
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    + constructor(name, age)
+                </td>
+            </tr>
+        </table>
 
-    ```js
-    let terminator = new Movie('Terminator', 1984, 90);
-    let logger = new Logger();
-    terminator.on('play', logger.log);
-    // ...
-    terminator.play(); // output: The 'play' event has been emitted
-    ```
+    *   Create a class called EventEmitter with the following structure
 
-6. Create an object called Social with methods share(friendName) and like(friendName) that will generate the following output "{friendName} likes/share {Movie Name}". *Hint: declare Social as an object literal, use Object.assign to mix Social methods into a Movie instance. Use Template Literals to generate the like/share method output*. You should be able to do something like this in the console:
+        <table>
+            <tr>
+                <td>EventEmitter</td>
+            </tr>
+            <tr>
+                <td>
+                    + constructor()<br />
+                    + on(eventName, callback) <br />
+                    + emit(eventName)<br />
+                    + off(eventName, callback)
+                </td>
+            </tr>
+        </table>
 
-    ```js
-    ironman.share('Mike Blossom'); // output: Share Iron Man with Mike Blossom
-    ```
+        The `on` method will receive a eventName and a callback or **listener** that will be executed each time a that event is triggered.
 
-7. Create an Actor class and create some actors from one of your favorite movies.
+        The `emit` method will trigger events to be consumed by other functions or objects.
 
-8. Add a method to Movie that will allow to add one or more actors at the same time.
-   ```js
-   let terminator = new Movie('Terminator I', 1985, 60);
-   let arnold = new Actor('Arnold Schwarzenegger', 50);
-   let otherCast = [
-     new Actor('Paul Winfield', 50),
-     new Actor('Michael Biehn', 50),
-     new Actor('Linda Hamilton', 50)
-   ];
+        The `off` method will delete previously defined event listeners.
 
-   terminator.addCast(arnold);
-   terminator.addCast(otherCast); //Movie must contain an array of 4 actors
-   ```
-9. Using ES6 Modules split all your classes declarations into diferent files. Use Babel to create a single bundle. *Hint: check this [tutorial](https://babeljs.io/docs/usage/cli/)*
+2.  Class inheritance
 
-##### Key Points:
+    *   Make the Movie class a subclass of [EventEmitter](https://netbasal.com/javascript-the-magic-behind-event-emitter-cce3abcbcef9) and use the inherited methods to publish `play`, `pause` and `resume` events when the related method is called.
 
-5, 6, 8, 9
+3.  Working with classes
 
-##### Commit
+    *   Add a method to Movie as `addCast(cast)` that allows the addition of one or more Actors to a movie. It must work if provided with more than one Actor at the same time.
 
-Commit your practice code.
+        You should be able to do something like
+
+        ```js
+        const terminator = new Movie('Terminator I', 1985, 60);
+        const arnold = new Actor('Arnold Schwarzenegger', 50);
+        const actors = [
+            new Actor('Paul Winfield', 50),
+            new Actor('Michael Biehn', 50),
+            new Actor('Linda Hamilton', 50)
+        ];
+
+        terminator.addCast(arnold);
+        terminator.addCast(otherCast);
+        ```
+
+    *   Create a Logger class with the following structure
+
+        <table>
+            <tr>
+                <td>Logger</td>
+            </tr>
+            <tr>
+                <td>
+                    + constructor()<br />
+                    + log(info)
+                </td>
+            </tr>
+        </table>
+
+        After creating this class make an instance of Logger and make it listen to Movie's `play` event.
+
+        As example you must end with something like
+
+        ```js
+        const terminator = new Movie('Terminator I', 1985, 60);
+
+        ...
+
+        terminator.play(); // output: The 'play' event has been emitted
+        ```
+
+4.  Mixins
+
+    *   Create an object called social, defining the methods `share(friendName)` and `like(friendName)` that generates the following output `{friendName} likes/share {movieName}`.
+
+        Then extend a movie with it to have access to this methods.
+
+        You should end with something like
+
+        ```js
+        const ironman = new Movie(...);
+
+        ...
+
+        ironman.share('Mike Blossom');
+        ```
+
+        **Hint:** A mixin is not a class which will be instantiated later on. Use a way to extend some object methods into another object. Template literals might be useful to generate the required output.
+
+5.  ES6 Modules
+
+    *   Split all your classes into different files.
+
+    *   Using babel create a single JS bundle.
+
+    **Hint:** check out [this](https://babeljs.io/docs/usage/cli/)
+
+**Key Points**
+
+3, 4, 5
 
 → [index](#index)
 
-#### Topic 3: MVC - AngularJS
+<h4 id="topic3">Topic 3 - HTML5 APIs</h4>
 
-##### Reading:
-
-1. [Ultimate guide to learn Angular.js in one day](http://toddmotto.com/ultimate-guide-to-learning-angular-js-in-one-day/).
-
-2. Read Angular.js's [Developers Guide](https://docs.angularjs.org/guide).
-
-3. Check your code to comply with Angular.js's [Best Practices](https://github.com/angular/angular.js/wiki/Best-Practices).
-
-4. Check your code to avoid Angular.js's [Anti-patterns](https://github.com/angular/angular.js/wiki/Anti-Patterns)
-
-5. Learn how to create unit tests for your angular.js applications [https://docs.angularjs.org/guide/unit-testing](https://docs.angularjs.org/guide/unit-testing)
-
-##### Practice:
-
-1. Create a movie listing with your favorite movies. Data shall be persisted in localhost.
-
-2. Show movie details in a separate details view.
-
-3. Allow to add / edit / remove movies from the list.
-
-4. Configure Karma and write tests for your application.
-
-Tips:
-* Learn how to use [components](https://docs.angularjs.org/guide/component) to structure your application
-
-##### Key Points:
-
-1, 2, 3
-
-##### Mobile Test
-
-Test your code in a mobile device or in Android emulator.
-
-##### Commit:
-
-Commit your practice code.
-
-→ [index](#index)
-
-#### Topic 4: HTML5 APIs
-
-##### Reading:
+**Reading**
 
 1. Take a glimpse into HTML5 APIs: [http://www.html5rocks.com/en/](http://www.html5rocks.com/en/)
 
 2. Now, take a deep dive into HTML5: [http://diveintohtml5.info/](http://diveintohtml5.info/) (optional)
 
-3. Understand the capabilities the Web has to offer right now [https://whatwebcando.today/](https://whatwebcando.today/) 
+3. Understand the capabilities the Web has to offer right now [https://whatwebcando.today/](https://whatwebcando.today/)
 
-##### Practice:
+**Practice**
 
-1. Create a page with a textarea and a save button. Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB.
+1.  Storages
 
-2. Add a clear button to erase saved content.
+    *   Create a page with a textarea and a save button.
 
-3. Add drag and drop support to load text files.
+    *   Save textarea content's when the user clicks on save. Use both localStorage and IndexedDB.
 
-4. Open a web socket and test it against [this echo service](http://www.websocket.org/echo.html).
+    *   Add a clear button to erase saved content.
 
-5. Create a web page with a canvas element. Upon page load draw basic geometric figures with random colors and strokes.
+2.  Drag and Drop
 
-6. Using the Canvas API animate a rectangle's position on the screen. Make sure not to use setTimeout but requestTimeFrame to perform the animation.
+    *   Add drag and drop support to load text files.
 
-7. Create a web page with a SVG element to show a vector graphic. Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
 
-##### Key Points:
+3.  WebSockets
 
-1, 3, 4, 7
+    *   Open a web socket and test it against [this service](http://www.websocket.org/echo.html).
 
-##### Commit:
 
-Commit your practice code.
+4.  SVG
+
+    *   Create a web page with a SVG element to show a vector graphic.
+        Make sure you understand when is better to use SVG instead of bitmaps, and viceversa.
+
+
+5.  Canvas
+
+    *   Create a web page with a canvas element. Upon page load draw basic geometric figures with random colors and strokes.
+
+    *   Using the Canvas API, animate a rectangle's position on the screen. Make sure not to use setTimeout but setInterval to perform the animation.
+
+**Key Points**
+
+1, 2, 3, 4
 
 → [index](#index)
 
-#### Topic 5 (Optional): UI - ReactJS
+<h4 id="topic4">Topic 4 - ReactJS</h4>
 
-##### Reading:
+**Reading:**
 
 1. [What is ReactJS?](http://facebook.github.io/react/). [Here](http://www.instrument.com/latest/an-introduction-to-react-js) is an introduction to it.
 
@@ -411,19 +488,21 @@ Commit your practice code.
 
 3. Understand [Props & States](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md).
 
-4. Read about some ReactJS's [Best Practices, Patterns & Anti-patters](https://github.com/planningcenter/react-patterns).
+4. Install [Create React App](https://github.com/facebook/create-react-app) and get familiar with it.
 
-5. Check some ReactJS's [Test utils](https://facebook.github.io/react/docs/test-utils.html).
+5. Read about some ReactJS's [Best Practices, Patterns & Anti-patterns](https://github.com/planningcenter/react-patterns).
 
-6. Try on using [Reactify](https://github.com/andreypopp/reactify) [ReactJS + Browserify workflow](https://www.codementor.io/reactjs/tutorial/react-js-browserify-workflow-part-1).
+6. Check some ReactJS's [Test utils](https://facebook.github.io/react/docs/test-utils.html).
+
+7. Check the [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) video series, to understand the basic concepts of this state container.
 
 
-##### Extra reading:
+**Extra reading:**
 
 * [Full guide on ReactJS](https://scotch.io/tutorials/learning-react-getting-started-and-concepts).
 
-* [Read some ReactJS tips](https://facebook.github.io/react/tips/introduction.html).
-
+* Readings on lifecycle methods: [React Lifecycle Methods- how and when to use them](https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1),
+[Understanding the React Component Lifecycle](http://busypeoples.github.io/post/react-component-lifecycle/)
 
 ##### Practice:
 
@@ -435,32 +514,84 @@ Commit your practice code.
 
 4. Update the movie listing to allow the user delete movies.
 
-5. Update the application to use ReactRouter and Flux.
+5. Refactor the application to use [Redux](https://redux.js.org/).
 
 **Tips:**
 - First, try to think which should be your app structure (in terms of components).
 - Second, figure out which component should handle the movies.
 - You should create a component when trying to create a view (a view is also a component).
-- To update the application with ReactRouter and Flux you may split out the add logic and the display logic into two views.
-  Also you may provide the data storage (object) responsibility to Flux's storages.
 
-##### Key Points:
+**Key Points:**
 
-1, 2, 4.
+1, 2, 4, 5
 
-##### Mobile Test:
+→ [index](#index)
 
-Test your code in a mobile device or in Android emulator.
+<h4 id="topic5">Topic 5 - Unit Tests</h4>
 
-##### Commit:
+In this topic you will learn how to develop unit tests for your React components, for this purpose we will use the following libraries:
 
-Commit your practice code.
+* [Mocha](https://mochajs.org/) as test runner
+* [Chai](http://www.chaijs.com/) as an assertions library
+* and [Enzyme](https://github.com/airbnb/enzyme), which is a testing utility that will make it easier to acccess to React components
+
+**Reading**
+
+1. Read this [React Testing Tutorial](https://www.robinwieruch.de/react-testing-tutorial/), to understand and set it up the different tools that you are going to use for this practice. There are more testing utilities explained in the tutorial, if you want to learn more about unit and integration tests.
+
+2. Learn [The right way to test React components](https://medium.freecodecamp.org/the-right-way-to-test-react-components-548a4736ab22), to understand the main points of unit testing in React. 
+
+**Extra reading**
+
+* Get to know Enzyme purpose [https://medium.com/airbnb-engineering/enzyme-javascript-testing-utilities-for-react-a417e5e5090f](https://medium.com/airbnb-engineering/enzyme-javascript-testing-utilities-for-react-a417e5e5090f)
+
+**Practice**
+
+1. Using the components created in Topic 4, define which components and functions might need Unit tests and the test cases you want to cover.
+
+2. Implement the unit tests using Mocha, Chai and Enzyme.
+
+**Tips**
+
+Remember that unit tests are used to test the functionality of each component separately, checking that each part of your code is doing its job in the right way.
+
+→ [index](#index)
+
+<h4 id="topic6">Topic 6 - Angular</h4>
+
+**Reading**
+
+1. Read Angular's [Tutorial](https://angular.io/tutorial) and the [QuickStart guide](https://angular.io/guide/quickstart).
+
+2. [Creating your first Angular 2+ component](https://toddmotto.com/creating-your-first-angular-2-component).
+
+3. Check your code to comply with Angular's [Style Guide](https://angular.io/guide/styleguide).
+
+4. Learn how to create unit tests for your angular applications [https://angular.io/guide/testing](https://angular.io/guide/testing)
+
+5. [Codecraft tutorial on Angular 5](https://codecraft.tv/courses/angular/quickstart/overview/)
+
+6. Get familiar with the [Angular CLI](https://github.com/angular/angular-cli) tool.
+
+**Practice**
+
+1. Create a movie listing with your favorite movies. Data should be persisted in localhost.
+
+2. Show movie details in a separate details view.
+
+3. Allow to add / edit / remove movies from the list.
+
+4. Configure Jasmine+karma and write tests for your application.
+
+**Key Points**
+
+1, 2, 3
 
 → [index](#index)
 
 ### Your First Project Starts Now!
 
-#### It’s time for the real thing.
+**It’s time for the real thing.**
 
 You will work on a project to achieve a fully working multi platform mobile app developed in JavaScript and using the latest tags and APIs available in HTML5.
 
@@ -468,20 +599,24 @@ You will apply all the knowledge obtained during the learning weeks.
 
 You’ll be given with a backlog of user stories you will estimate with your PM.
 
-Once estimated, user stories will be divided into sprints of one week.
+Will you be able to consult documentation? Of course!
 
-You will participate on daily scrum meetings.
-Will you be able to consult documentation? Of course! You will be able to use any resource you know that helps you complete your user stories, be it going back to documentation sites, tutorials or just googling what you need. Luckily the web is plenty of awesome resources waiting for you to grasp them!
+You will be able to use any resource you know that helps you complete your project, be it going back to documentation sites, tutorials or just googling what you need. Luckily the web has plenty of awesome resources waiting for you to grasp them!
 
-#### Commits
+**Reviews**
 
-You will commit your code to GitHub on a daily basis.
-
-#### Reviews
-
-Tutors will give you feedback at the end of each sprint by reviewing and commenting your committed code in GitHub. If possible tutors will give you even more frequent feedback, sometimes at the end of the day.
+Tutors will give you feedback at the end of each sprint by reviewing and commenting your committed code in GitHub.
 
 → [index](#index)
 
+<h3 id="forward">Moving Forward</h3>
 
-Thanks for reading!
+Here's a list of resources, tools and tips to continue your learning path. This is meant for more advanced students and developers who wish to continue learning and need a little guidance. Feel free to play with them!
+
+- [Learning Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- [Introduction to React Router](https://github.com/ReactTraining/react-router/blob/v3/docs/Introduction.md)
+- [Understanding redux](https://redux.js.org/introduction/motivation)
+- [Observables in Angular](https://angular.io/guide/observables)
+- [Webpack concepts](https://webpack.js.org/concepts/) and the [webpack getting started guide](https://webpack.js.org/guides/getting-started/)
+
+→ [index](#index)
